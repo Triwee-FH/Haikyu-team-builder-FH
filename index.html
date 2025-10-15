@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haikyu Team Builder FH</title>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🏐 Haikyu Team Builder FH</h1>
+    <p>Construis ton équipe de volley ultime !</p>
+  </header>
+
+  <main>
+    <section id="personnages">
+      <h2>Liste des personnages</h2>
+      <input type="text" id="recherche" placeholder="Rechercher un joueur...">
+      <div id="liste-personnages"></div>
+    </section>
+
+    <section id="equipe">
+      <h2>Mon équipe</h2>
+      <div id="emplacements"></div>
+
+      <div class="boutons">
+        <button id="sauvegarder">💾 Sauvegarder</button>
+        <button id="charger">📂 Charger</button>
+        <button id="vider">❌ Réinitialiser</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projet par Triwee — inspiré de Haikyu!! 🦅</p>
+  </footer>
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/ui.js"></script>
+  <script src="src/js/app.js"></script>
+</body>
+</html>
